@@ -5,6 +5,7 @@
     Clears the Teams client cache for whichever Teams version is currently in use while retaining the custom backgrounds.
     .ThanksTo
     Eugene Myburgh
+    Test
 
 #>
 IF ((Test-Path 'HKCU:Software\Microsoft\MSB365_NewTeams_clear_cache_Tool') -eq $false)
